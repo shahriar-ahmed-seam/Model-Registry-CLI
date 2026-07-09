@@ -1,0 +1,46 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+ml-reg
+ml-reg-*
+
+# Test binaries
+*.test
+*.test.exe
+
+# Output directories
+dist/
+bin/
+out/
+.kiro/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project-specific
+.ml-reg/
+registry.test.exe
+*.db
+*.db-journal
+*.sqlite
+*.sqlite-journal
+
+# Coverage files
+coverage.txt
+coverage.out
+profile.out
+
+# Local configuration
+.env
+.env.local
+.env.*.local
